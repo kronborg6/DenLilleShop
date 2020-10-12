@@ -11,3 +11,16 @@ C:\Users\Kronborg\Documents\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\net
 C:\Users\Kronborg\Documents\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.dll
 C:\Users\Kronborg\Documents\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.pdb
 C:\Users\Kronborg\Documents\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.genruntimeconfig.cache
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.csprojAssemblyReference.cache
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.AssemblyInfoInputs.cache
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.AssemblyInfo.cs
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.csproj.CoreCompileInputs.cache
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.dll
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.pdb
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\DenLilleShop.exe
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\DenLilleShop.deps.json
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\DenLilleShop.runtimeconfig.json
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\DenLilleShop.runtimeconfig.dev.json
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\DenLilleShop.dll
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\DenLilleShop.pdb
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.genruntimeconfig.cache
