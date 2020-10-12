@@ -23,7 +23,7 @@ namespace DenLilleShop
                         switch (ind)
                         {
                             case 1:
-                                Console.WriteLine("Hej med dig");
+                                Customer.Add(new Customer());
                                 break;
                             case 2:
                                 Console.WriteLine("Hej med digg");

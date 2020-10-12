@@ -6,10 +6,7 @@ namespace DenLilleShop
 {
     class Product
     {
-        public Product()
-        {
 
-        }
         private int ProductID;
         public float Price;
         public string Name;
@@ -18,6 +15,13 @@ namespace DenLilleShop
         {
             get { return ProductID; }
             set { ProductID = ProductId; }
+        }
+        public Product(int id, float ItemPrice, string ItemName, int HowMany)
+        {
+            ProductId = id;
+            Price = ItemPrice;
+            Name = ItemName;
+            Stuck = HowMany;
         }
     }
 }

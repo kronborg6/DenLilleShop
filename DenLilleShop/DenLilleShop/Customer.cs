@@ -6,10 +6,7 @@ namespace DenLilleShop
 {
     class Customer
     {
-        public Customer()
-        {
 
-        }
         private int CustomerID;
         public string Fornavn;
         public string Efternavn;
@@ -21,10 +18,13 @@ namespace DenLilleShop
             get { return CustomerID; }
             set { CustomerID = CustomerId; }
         }
-
-
-
-
-
+        public Customer(int ID, string Fname, string Ename, int MobilN, string Em)
+        {
+            CustomerId = ID;
+            Fornavn = Fname;
+            Efternavn = Ename;
+            MobilNummer = MobilN;
+            Email = Em;
+        }
     }
 }
