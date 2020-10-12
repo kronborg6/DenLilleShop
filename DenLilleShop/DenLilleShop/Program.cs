@@ -41,17 +41,37 @@ namespace DenLilleShop
                                 if (YN == "y")
                                 {
                                     customers.Add(new Customer(ID, Fname, Ename, MobilN, Em));
+                                    Console.Clear();
                                     Console.WriteLine("Kunde er blevet gemt");
-                                    Console.WriteLine("Kunde ID: ");
-                                    Console.WriteLine("Navn: ");
-                                    Console.WriteLine("Mobil Nummer: ");
-                                    Console.WriteLine("Email: ");
+                                    Console.WriteLine("Kunde ID: " + ID);
+                                    Console.WriteLine("Navn: " + Fname + " " + Ename);
+                                    Console.WriteLine("Mobil Nummer: " + MobilN);
+                                    Console.WriteLine("Email: " + Em);
                                     Console.WriteLine("\n\n1. vis du vil oprette en kunde til");
                                     Console.WriteLine("8. vis du vil tilbage til Menuen");
                                 }
                                 else
                                 {
-                                    break;
+                                    Console.WriteLine("Du valgt ikke ja eller nej du vaglt: " + YN);
+                                    Console.WriteLine("Prøv igen vis du ikke valger y eller n du vil ikke blive gemt");
+                                    YN = Console.ReadLine().ToLower();
+                                    if (YN == "y")
+                                    {
+                                        customers.Add(new Customer(ID, Fname, Ename, MobilN, Em));
+                                        Console.Clear();
+                                        Console.WriteLine("OKay så du ville gemme det!?!?");
+                                        Console.WriteLine("\nKunde er blevet gemt");
+                                        Console.WriteLine("Kunde ID: " + ID);
+                                        Console.WriteLine("Navn: " + Fname + " " + Ename);
+                                        Console.WriteLine("Mobil Nummer: " + MobilN);
+                                        Console.WriteLine("Email: " + Em);
+                                        Console.WriteLine("\n\n1. vis du vil oprette en kunde til");
+                                        Console.WriteLine("8. vis du vil tilbage til Menuen");
+                                    }
+                                    else
+                                    {
+                                        break;
+                                    }
                                 }
                                 
                                 break;
