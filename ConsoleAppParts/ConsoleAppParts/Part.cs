@@ -25,7 +25,6 @@ namespace ConsoleAppParts
 
         public int SortByNameAscending(string name1, string name2)
         {
-
             return name1.CompareTo(name2);
         }
 

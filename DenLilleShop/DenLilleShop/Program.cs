@@ -8,10 +8,21 @@ namespace DenLilleShop
         static void Main(string[] args)
         {
             List<Customer> customers = new List<Customer>();
+
             List<Product> products = new List<Product>();
             List<Order> orders = new List<Order>();
             Menu m = new Menu();
             //Product p = new Product();
+            customers.Add(new Customer() { CustomerID = 1, Fornavn = "Mikkel", Efternavn = "Kronborg", MobilNummer = 60677407, Email = "mkronborg7@gmail.com" });
+            customers.Add(new Customer() { CustomerID = 2, Fornavn = "Tina", Efternavn = "Nilsen", MobilNummer = 24070605, Email = "t.kronborg6@gmail.com" });
+            customers.Add(new Customer() { CustomerID = 3, Fornavn = "Allan", Efternavn = "Andersen", MobilNummer = 85858032, Email = "AllanAndersen@gmail.com" });
+            customers.Add(new Customer() { CustomerID = 4, Fornavn = "Mads", Efternavn = "Madsen", MobilNummer = 60677407, Email = "Mads032@gmail.com" });
+
+            products.Add(new Product() { ProductId = 1, Name = "Mar's Bar", Price = 10 });
+            products.Add(new Product() { ProductId = 2, Name = "500g Slik", Price = 25 });
+            products.Add(new Product() { ProductId = 3, Name = "Gave Kort 100 Kr", Price = 100 });
+            products.Add(new Product() { ProductId = 4, Name = "kasse Coca Cola", Price = 70 });
+
             m.ListMenu();
             while (true)
             {

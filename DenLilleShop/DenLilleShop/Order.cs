@@ -6,11 +6,16 @@ namespace DenLilleShop
 {
     public class Order
     {
-        public int OrderID;
+        public int OrderID { get; set; }
         // var list
-        public float Saldo;
-        public string payed;
+        public float Saldo { get; set; }
+        public string payed { get; set; }
+        public List<Product> items { get; set; }
         public Order()
+        {
+
+        }
+        public void ByCustomerId(int CustomerId)
         {
 
         }

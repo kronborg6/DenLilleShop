@@ -26,6 +26,11 @@ namespace DenLilleShop
             MobilNummer = MobilN;
             Email = Em;
         }
+
+        public Customer()
+        {
+        }
+
         public override string ToString()
         {
             return "ID: " + CustomerID + " Fornavn: " + Fornavn + " Efternavn: " + Efternavn + " Mobil: " + MobilNummer + " Email: " + Email;
