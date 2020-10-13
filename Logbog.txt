@@ -6,3 +6,6 @@ TODO LIST
 
 13/10-2020
 	jeg har lavet så nu kan man se alle kunder, og er igang med at man kunne se alle order og Producter	
+	Jeg har taget alle filler fra learn og add dem til en mappe i min github så jeg har dem
+	
+	jeg har lidt problmemmer med at få order info fra CustomerID
