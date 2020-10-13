@@ -4,27 +4,31 @@ using System.Text;
 
 namespace DenLilleShop
 {
-    class Customer
+    public class Customer
     {
 
-        private int CustomerID;
-        public string Fornavn;
-        public string Efternavn;
-        public int MobilNummer;
-        public string Email;
+        public int CustomerID { get; set; }
+        public string Fornavn { get; set; }
+        public string Efternavn { get; set; }
+        public int MobilNummer { get; set; }
+        public string Email { get; set; }
 
-        public int CustomerId 
+        /*public int CustomerId 
         { 
             get { return CustomerID; }
             set { CustomerID = CustomerId; }
-        }
+        }*/
         public Customer(int ID, string Fname, string Ename, int MobilN, string Em)
         {
-            CustomerId = ID;
+            CustomerID = ID;
             Fornavn = Fname;
             Efternavn = Ename;
             MobilNummer = MobilN;
             Email = Em;
+        }
+        public override string ToString()
+        {
+            return "ID: " + CustomerID + " Fornavn: " + Fornavn + " Efternavn: " + Efternavn + " Mobil: " + MobilNummer + " Email: " + Email;
         }
     }
 }

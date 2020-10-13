@@ -1,1 +1,8 @@
+Mikkel Kronborg's Den Lille Shop Logbog
 
+TODO LIST
+	add database
+	lave en gui og consol versoin
+
+13/10-2020
+	jeg har lavet så nu kan man se alle kunder, og er igang med at man kunne se alle order og Producter	

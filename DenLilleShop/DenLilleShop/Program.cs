@@ -7,11 +7,12 @@ namespace DenLilleShop
     {
         static void Main(string[] args)
         {
-            int number;
             List<Customer> customers = new List<Customer>();
+            List<Product> products = new List<Product>();
+            List<Order> orders = new List<Order>();
             Menu m = new Menu();
+            //Product p = new Product();
             m.ListMenu();
-            
             while (true)
             {
                 int ind = int.Parse(Console.ReadLine());
@@ -76,16 +77,85 @@ namespace DenLilleShop
                                 
                                 break;
                             case 2:
-                                Console.WriteLine("Hej med digg");
+                                Console.Clear();
+                                Console.WriteLine("Opret Vare");
+                                Console.WriteLine("ID: ");
+                                int id = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Vare Navn: ");
+                                string ItemName = Console.ReadLine();
+                                Console.WriteLine("Vare Prise: ");
+                                float ItemPrice = float.Parse(Console.ReadLine());
+                                Console.WriteLine("y/n vil du gemme det??");
+                                YN = Console.ReadLine().ToLower(); 
+                                if (YN == "y")
+                                {
+                                    products.Add(new Product(id, ItemPrice, ItemName));
+                                    Console.Clear();
+                                    Console.WriteLine("Varen er blevet gemt");
+                                    Console.WriteLine("Varen ID: " + id);
+                                    Console.WriteLine("Vare Navn: " + ItemName);
+                                    Console.WriteLine("Vare Prise: " + ItemPrice);
+                                    Console.WriteLine("\n\n1. vis du vil oprette en kunde til");
+                                    Console.WriteLine("8. vis du vil tilbage til Menuen");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Du valgt ikke ja eller nej du vaglt: " + YN);
+                                    Console.WriteLine("Prøv igen vis du ikke valger y eller n du vil ikke blive gemt");
+                                    YN = Console.ReadLine().ToLower();
+                                    if (YN == "y")
+                                    {
+                                        products.Add(new Product(id, ItemPrice, ItemName));
+                                        Console.Clear();
+                                        Console.WriteLine("Varen er blevet gemt");
+                                        Console.WriteLine("Varen ID: " + id);
+                                        Console.WriteLine("Vare Navn: " + ItemName);
+                                        Console.WriteLine("Vare Prise: " + ItemPrice);
+                                        Console.WriteLine("\n\n1. vis du vil oprette en kunde til");
+                                        Console.WriteLine("8. vis du vil tilbage til Menuen");
+                                    }
+                                    else
+                                    {
+                                        break;
+                                    }
+                                }
                                 break;
                             case 3:
-                                Console.WriteLine("Hej med diggg");
+                                bool run = true;
+                                Console.WriteLine("Create Order");
+                                Console.WriteLine("\nOrder ID:");
+                                id = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Kunde ID:");
+                                int KundeID = int.Parse(Console.ReadLine());
+                                while (run)
+                                {
+                                    int itemID = int.Parse(Console.ReadLine());
+                                    Console.WriteLine("Test");
+                                }
                                 break;
                             case 4:
+                                Console.Clear();
+                                m.ListMenu();
+                                foreach (Customer Cus in customers)
+                                {
+                                    Console.WriteLine(Cus.ToString());
+                                    Console.WriteLine(Cus.CustomerID);
+                                }
+                                break;                            
+                            case 10: // Test Case
+                                Console.Clear();
+                                m.ListMenu();
+                                foreach (Customer Cus in customers)
+                                {
+                                    Console.WriteLine(Cus.ToString());
+                                    Console.WriteLine(Cus.CustomerID);
+                                }
                                 break;
                             case 5:
                                 break;
                             case 7:
+                                Console.Clear();
+                                m.AllMenu();
                                 break;
                             case 8:
                                 Console.Clear();

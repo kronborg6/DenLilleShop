@@ -1,0 +1,7 @@
+C:\Users\Kronborg\Documents\DenLilleShop\ConsoleAppParts\ConsoleAppParts\bin\Debug\ConsoleAppParts.exe.config
+C:\Users\Kronborg\Documents\DenLilleShop\ConsoleAppParts\ConsoleAppParts\bin\Debug\ConsoleAppParts.exe
+C:\Users\Kronborg\Documents\DenLilleShop\ConsoleAppParts\ConsoleAppParts\bin\Debug\ConsoleAppParts.pdb
+C:\Users\Kronborg\Documents\DenLilleShop\ConsoleAppParts\ConsoleAppParts\obj\Debug\ConsoleAppParts.csprojAssemblyReference.cache
+C:\Users\Kronborg\Documents\DenLilleShop\ConsoleAppParts\ConsoleAppParts\obj\Debug\ConsoleAppParts.csproj.CoreCompileInputs.cache
+C:\Users\Kronborg\Documents\DenLilleShop\ConsoleAppParts\ConsoleAppParts\obj\Debug\ConsoleAppParts.exe
+C:\Users\Kronborg\Documents\DenLilleShop\ConsoleAppParts\ConsoleAppParts\obj\Debug\ConsoleAppParts.pdb

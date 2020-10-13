@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DenLilleShop
 {
-    class Menu
+    public class Menu
     {
         public Menu()
         {
@@ -13,6 +13,7 @@ namespace DenLilleShop
 
         public void ListMenu()
         {
+            Console.Clear();
             Console.WriteLine("*******************************************");
             Console.WriteLine("\n             Hvad vil du");
             Console.WriteLine("\n             1. Oprette Kunder");
@@ -24,12 +25,23 @@ namespace DenLilleShop
         }
         public void SletMenu()
         {
-            Console.WriteLine("*******************************************");
+            Console.Clear();
+            Console.WriteLine("\n*******************************************");
             Console.WriteLine("1. Slet Kunde");
             Console.WriteLine("2. Slet Varer");
             Console.WriteLine("3. Slet Order");
             Console.WriteLine("4. Tilbage");
             Console.WriteLine("*******************************************");
+        }
+        public void AllMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("\n*******************************************");
+            Console.WriteLine("\n              Vis alle");
+            Console.WriteLine("\n              1. Alle Kunder");
+            Console.WriteLine("              2. Alle Vare");
+            Console.WriteLine("              2. Alle Order");
+            Console.WriteLine("\n*******************************************");
         }
 
     }

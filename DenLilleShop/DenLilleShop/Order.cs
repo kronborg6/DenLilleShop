@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DenLilleShop
 {
-    class Order
+    public class Order
     {
         public int OrderID;
         // var list
