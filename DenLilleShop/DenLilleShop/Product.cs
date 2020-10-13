@@ -25,7 +25,6 @@ namespace DenLilleShop
         }
         public Product()
         {
-
         }
     }
 }
