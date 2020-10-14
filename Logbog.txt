@@ -9,3 +9,11 @@ TODO LIST
 	Jeg har taget alle filler fra learn og add dem til en mappe i min github så jeg har dem
 	
 	jeg har lidt problmemmer med at få order info fra CustomerID
+
+14/10-2020
+	
+	Jeg var ikke i skole idag da jeg ikke hade det så godt men
+	jeg har prøvet at få levet nåde her hjemme
+	jeg gik igang med at sette op til jeg kan lave en uml og e/r dirgam
+	jeg prøvet også at lave nåde med uder classer til mit product class men det gik ikke helt så godt
+	jeg hade problemmer med at gøre så man kunne set den ting jeg add og kunne ikke finde ud af hvordan jeg ville gemme det

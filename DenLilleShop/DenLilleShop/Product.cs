@@ -10,7 +10,7 @@ namespace DenLilleShop
         private int ProductID { get; set; }
         public float Price { get; set; }
         public string Name { get; set; }
-        public int Stuck { get; set; }
+        
         public int ProductId
         {
             get { return ProductID; }
@@ -25,6 +25,15 @@ namespace DenLilleShop
         }
         public Product()
         {
+
         }
+    }
+    public class LiterProduct : Product
+    {
+        public int Liter { get; set; }
+    }
+    public class GramProduct : Product
+    {
+        public int Gram { get; set; }
     }
 }

@@ -8,11 +8,14 @@ namespace DenLilleShop
         static void Main(string[] args)
         {
             List<Customer> customers = new List<Customer>();
-
             List<Product> products = new List<Product>();
+            List<LiterProduct> literProducts = new List<LiterProduct>();
+            List<GramProduct> gramProducts = new List<GramProduct>();
             List<Order> orders = new List<Order>();
+            Product Test = new LiterProduct();
+            Test.Liter = 12;
             Menu m = new Menu();
-            //Product p = new Product();
+
             customers.Add(new Customer() { CustomerID = 1, Fornavn = "Mikkel", Efternavn = "Kronborg", MobilNummer = 60677407, Email = "mkronborg7@gmail.com" });
             customers.Add(new Customer() { CustomerID = 2, Fornavn = "Tina", Efternavn = "Nilsen", MobilNummer = 24070605, Email = "t.kronborg6@gmail.com" });
             customers.Add(new Customer() { CustomerID = 3, Fornavn = "Allan", Efternavn = "Andersen", MobilNummer = 85858032, Email = "AllanAndersen@gmail.com" });
@@ -24,6 +27,7 @@ namespace DenLilleShop
             products.Add(new Product() { ProductId = 4, Name = "kasse Coca Cola", Price = 70 });
 
             m.ListMenu();
+
             while (true)
             {
                 int ind = int.Parse(Console.ReadLine());
