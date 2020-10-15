@@ -17,3 +17,11 @@ TODO LIST
 	jeg gik igang med at sette op til jeg kan lave en uml og e/r dirgam
 	jeg prøvet også at lave nåde med uder classer til mit product class men det gik ikke helt så godt
 	jeg hade problemmer med at gøre så man kunne set den ting jeg add og kunne ikke finde ud af hvordan jeg ville gemme det
+
+15/10-2020
+	Jeg hade hodepine så var ikke i skole idag
+	Jeg har ikke lavet så meget idag da jeg ikke right kunne holde ud at kigge på en skærm men har fået lavet lidt
+	Jeg prøvet igen at se hvordan jeg kunne lave en stuck om det er liter eller gram så jeg kan holde øje med hvor meget jeg har
+	Men det kunne jeg ikke få til at virke jeg add også en Class Labry og begydt at tinge på hvordan min db skal være men har ikke prøvet at add en db før til C# OOP
+	Så har ikke helt funet ud af hvordan jeg skal gøre det i nu
+	

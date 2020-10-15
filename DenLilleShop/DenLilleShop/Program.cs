@@ -13,7 +13,7 @@ namespace DenLilleShop
             List<GramProduct> gramProducts = new List<GramProduct>();
             List<Order> orders = new List<Order>();
             Product Test = new LiterProduct();
-            Test.Liter = 12;
+            //Test.Liter = 12;
             Menu m = new Menu();
 
             customers.Add(new Customer() { CustomerID = 1, Fornavn = "Mikkel", Efternavn = "Kronborg", MobilNummer = 60677407, Email = "mkronborg7@gmail.com" });
