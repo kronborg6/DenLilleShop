@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DenLilleShop", "DenLilleShop\DenLilleShop.csproj", "{4255C553-BA41-4E30-A1B1-83E652F86CA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DenLilleShop", "DenLilleShop\DenLilleShop.csproj", "{4255C553-BA41-4E30-A1B1-83E652F86CA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2309E6D2-6368-4694-97CC-FEDAF3E64CE7}"
+	ProjectSection(SolutionItems) = preProject
+		DenLilleShopCL\DenLilleShopCL.csproj = DenLilleShopCL\DenLilleShopCL.csproj
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -45,7 +45,7 @@ namespace DenLilleShop
                                 int ID = int.Parse(Console.ReadLine());
                                 Console.WriteLine("Fornavn");
                                 string Fname = Console.ReadLine();
-                                Console.WriteLine("EfterNavn");
+                                Console.WriteLine("Efternavn");
                                 string Ename = Console.ReadLine();
                                 Console.WriteLine("Mobil Nummer");
                                 int MobilN = int.Parse(Console.ReadLine());

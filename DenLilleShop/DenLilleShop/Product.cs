@@ -32,9 +32,17 @@ namespace DenLilleShop
     public class LiterProduct : Product
     {
         public int Liter { get; set; }
+        public LiterProduct()
+        {
+
+        }
     }
     public class GramProduct : Product
     {
         public int Gram { get; set; }
+        public GramProduct()
+        {
+
+        }
     }
 }

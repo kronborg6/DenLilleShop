@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kronborg\\source\\repos\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj": {}
+    "C:\\Users\\Kronborg\\Documents\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kronborg\\source\\repos\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj": {
+    "C:\\Users\\Kronborg\\Documents\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kronborg\\source\\repos\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj",
+        "projectUniqueName": "C:\\Users\\Kronborg\\Documents\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj",
         "projectName": "DenLilleShop",
-        "projectPath": "C:\\Users\\Kronborg\\source\\repos\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj",
+        "projectPath": "C:\\Users\\Kronborg\\Documents\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj",
         "packagesPath": "C:\\Users\\Kronborg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kronborg\\source\\repos\\DenLilleShop\\DenLilleShop\\DenLilleShop\\obj\\",
+        "outputPath": "C:\\Users\\Kronborg\\Documents\\DenLilleShop\\DenLilleShop\\DenLilleShop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Kronborg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -55,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
