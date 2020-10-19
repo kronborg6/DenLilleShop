@@ -12,12 +12,6 @@ namespace DenLilleShop
         public string Efternavn { get; set; }
         public int MobilNummer { get; set; }
         public string Email { get; set; }
-
-        /*public int CustomerId 
-        { 
-            get { return CustomerID; }
-            set { CustomerID = CustomerId; }
-        }*/
         public Customer(int ID, string Fname, string Ename, int MobilN, string Em)
         {
             CustomerID = ID;

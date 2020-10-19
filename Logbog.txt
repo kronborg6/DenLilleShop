@@ -25,3 +25,6 @@ TODO LIST
 	Men det kunne jeg ikke få til at virke jeg add også en Class Labry og begydt at tinge på hvordan min db skal være men har ikke prøvet at add en db før til C# OOP
 	Så har ikke helt funet ud af hvordan jeg skal gøre det i nu
 	
+19710-2020
+	Jeg har lavet et E/R-dirgram som er stort et færdi
+	Jeg er gået igang med at lave sql kode til at lave DB table
