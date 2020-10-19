@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace DenLilleShop
+namespace DenLilleShopCL
 {
     public class Customer
     {
-
         public int CustomerID { get; set; }
         public string Fornavn { get; set; }
         public string Efternavn { get; set; }
@@ -20,7 +21,6 @@ namespace DenLilleShop
             MobilNummer = MobilN;
             Email = Em;
         }
-
         public Customer()
         {
         }
