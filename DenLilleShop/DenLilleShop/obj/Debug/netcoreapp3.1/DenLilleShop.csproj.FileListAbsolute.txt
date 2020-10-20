@@ -14,7 +14,6 @@ C:\Users\Kronborg\Documents\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\net
 C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.csprojAssemblyReference.cache
 C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.AssemblyInfoInputs.cache
 C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.AssemblyInfo.cs
-C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.csproj.CoreCompileInputs.cache
 C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.dll
 C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.pdb
 C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\DenLilleShop.exe
@@ -24,3 +23,11 @@ C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\
 C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\DenLilleShop.dll
 C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\DenLilleShop.pdb
 C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.genruntimeconfig.cache
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\DenLilleShop.dll.config
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Kronborg\source\repos\DenLilleShop\DenLilleShop\DenLilleShop\obj\Debug\netcoreapp3.1\DenLilleShop.csproj.CopyComplete

@@ -21,7 +21,7 @@ namespace DenLilleShop
             Email = Em;
         }
 
-        public Customer()
+        public Customer()   
         {
         }
 
@@ -29,5 +29,6 @@ namespace DenLilleShop
         {
             return "ID: " + CustomerID + " Fornavn: " + Fornavn + " Efternavn: " + Efternavn + " Mobil: " + MobilNummer + " Email: " + Email;
         }
+
     }
 }
