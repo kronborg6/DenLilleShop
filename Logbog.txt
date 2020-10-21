@@ -1,3 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <connectionStrings>
+    <add connectionString="Data Source=DESKTOP-ON7H3UQ;Initial Catalog=DenLilleShopDB;Integrated Security=True" name="connDB"/>
+  </connectionStrings>
+</configuration>
+
 Mikkel Kronborg's Den Lille Shop Logbog
 
 TODO LIST
