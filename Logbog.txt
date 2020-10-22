@@ -43,3 +43,4 @@ TODO LIST
 	Jeg fik min database på mit program og kunne hente data fra Customer table i databasen jeg har ikke test det andet men tro også det virker
 22/10-2020
 	Jeg har fået et problem med jeg ikke kan bruge min database der jeg start mit progam op idag den giver mig en fjel som jeg ikke hade igår
+	Jeg har fix det 

@@ -38,6 +38,15 @@ namespace DenLilleShop
                 Console.WriteLine("Something went wrong.");
                 Console.WriteLine(exp.Message);
             }
+            /*try
+            {
+                c.AddCustomer();
+            }
+            catch (SqlException exp)
+            {
+                Console.WriteLine("Something went wrong whit add .");
+                Console.WriteLine(exp.Message);
+            }*/
             while (true)
             {
                 int ind = int.Parse(Console.ReadLine());
