@@ -39,3 +39,7 @@ TODO LIST
 20/10-2020
 	Jeg har install en db og sat nogle table op
 	Jeg har prøvet at lave så jeg kan connet viea en class
+21/10-2020
+	Jeg fik min database på mit program og kunne hente data fra Customer table i databasen jeg har ikke test det andet men tro også det virker
+22/10-2020
+	Jeg har fået et problem med jeg ikke kan bruge min database der jeg start mit progam op idag den giver mig en fjel som jeg ikke hade igår
