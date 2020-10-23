@@ -4,8 +4,10 @@ using System.Text;
 
 namespace DenLilleShop
 {
-    class PoductList
+    public class PoductList
     {
+        public int ProductListID { get; set; }
+        public List<string> list = new List<string>();
 
     }
 }
