@@ -31,7 +31,7 @@ namespace DenLilleShop
             conn.Open();
             using (SqlDataReader sdr = cmd.ExecuteReader()) 
             {
-                while (sdr.Read())
+                while (sdr.Read())  
                 {
                     Console.WriteLine(sdr["CustomerID"].ToString());
                     Console.WriteLine(sdr["FirstName"].ToString());
@@ -44,6 +44,23 @@ namespace DenLilleShop
                 conn.Close();
             }
 
+        }
+        public void AddCustomer()
+        {
+            CreateConnection("connDB");
+            conn.Open();
+            var sql = "INSERT INTO Customer(FirstName, LastName, Email, Vejnavn, Husnummer, Postnummer) VALUES(@FirstName, @LastName, @Email, @Vejnavn, @Husnummer, @Postnummer)";
+            using (var cmd = new SqlCommand(sql))
+            {
+                cmd.Parameters.AddWithValue("@FirstName", "Tina");
+                cmd.Parameters.AddWithValue("@SecondName", "Kronborg");
+                cmd.Parameters.AddWithValue("@Email", "t.konborg6@gmail.com");
+                cmd.Parameters.AddWithValue("@Vejnavn", "Krengerupvej");
+                cmd.Parameters.AddWithValue("@Husnummer", "84");
+                cmd.Parameters.AddWithValue("@Postnummer", "5690");
+
+                //cmd.ExecuteNonQuery();
+            }
         }
     }
 }

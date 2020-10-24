@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DenLilleShop
 {
-    public class Customer
+    public class Customer : Enty
     {
 
         public int CustomerID { get; set; }
@@ -28,6 +28,10 @@ namespace DenLilleShop
         public override string ToString()
         {
             return "ID: " + CustomerID + " Fornavn: " + Fornavn + " Efternavn: " + Efternavn + " Mobil: " + MobilNummer + " Email: " + Email;
+        }
+        public override void Valdit()
+        {
+            throw new NotImplementedException();
         }
 
     }

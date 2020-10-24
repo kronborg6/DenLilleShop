@@ -9,8 +9,8 @@ namespace DenLilleShop
         public int OrderID { get; set; }
         // var list
         public float Saldo { get; set; }
-        public string payed { get; set; }
-        public List<Product> items { get; set; }
+        public string payed { get; set; } // måske
+        public int ProductListId { get; set; }
         public Order()
         {
 
