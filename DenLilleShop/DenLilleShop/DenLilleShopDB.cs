@@ -22,20 +22,28 @@ namespace DenLilleShop
             SqlConnection sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings[connString].ConnectionString);
             conn = sqlConnection;
         }
-        public SqlInteractionn()
-        {
-            try
-            {
-                CreateConnection("connDB");
-            }
-            catch(SqlException exp)
-            {
-                throw new InvalidOperationException("Data could not be read", exp);
-            }
-        }
-        public SqlInteraction()
+        public void SqlInteractionn()
         {
             CreateConnection("connDB");
+            SqlCommand cmd = new SqlCommand("SELECT CustomerID, FirstName, LastName, Email, Vejnavn, Husnummer, Postnummer FROM Customer");
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = conn;
+            conn.Open();
+            using (SqlDataReader sdr = cmd.ExecuteReader()) 
+            {
+                while (sdr.Read())
+                {
+                    Console.WriteLine(sdr["CustomerID"].ToString());
+                    Console.WriteLine(sdr["FirstName"].ToString());
+                    Console.WriteLine(sdr["LastName"].ToString());
+                    Console.WriteLine(sdr["Email"].ToString());
+                    Console.WriteLine(sdr["Vejnavn"].ToString());
+                    Console.WriteLine(sdr["Husnummer"].ToString());
+                    Console.WriteLine(sdr["Postnummer"].ToString());
+                }
+                conn.Close();
+            }
+
         }
     }
 }

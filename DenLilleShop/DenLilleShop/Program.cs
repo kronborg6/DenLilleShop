@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 
 namespace DenLilleShop
 {
@@ -15,6 +16,7 @@ namespace DenLilleShop
             Product Test = new LiterProduct();
             //Test.Liter = 12;
             Menu m = new Menu();
+            DenLilleShopDB c = new DenLilleShopDB();
 
             customers.Add(new Customer() { CustomerID = 1, Fornavn = "Mikkel", Efternavn = "Kronborg", MobilNummer = 60677407, Email = "mkronborg7@gmail.com" });
             customers.Add(new Customer() { CustomerID = 2, Fornavn = "Tina", Efternavn = "Nilsen", MobilNummer = 24070605, Email = "t.kronborg6@gmail.com" });
@@ -27,7 +29,15 @@ namespace DenLilleShop
             products.Add(new Product() { ProductId = 4, Name = "kasse Coca Cola", Price = 70 });
 
             m.ListMenu();
-
+            try
+            {
+                c.SqlInteractionn();
+            }
+            catch (SqlException exp)
+            {
+                Console.WriteLine("Something went wrong.");
+                Console.WriteLine(exp.Message);
+            }
             while (true)
             {
                 int ind = int.Parse(Console.ReadLine());
