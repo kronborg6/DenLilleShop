@@ -1,25 +1,27 @@
 CREATE TABLE Postnummer (
 	PostnummerID int NOT NULL PRIMARY KEY,
-	City varchar(255) NOT NULL,
+	City varchar(50) NOT NULL,
 );
 
 CREATE TABLE Customer (
     CustomerID int IDENTITY(1,1) PRIMARY KEY,
-    FirstName varchar(255),
-    LastName varchar(255),
-    Telfon varchar(255) NOT NULL,
+    FirstName varchar(50),
+    LastName varchar(50),
+    Telfon int(50) NOT NULL,
     Email varchar(200), 
-    Vejnavn varchar(255),
-    Husnummer varchar(255),
+    Vejnavn varchar(50),
+    Husnummer varchar(10),
     Postnummer int FOREIGN KEY REFERENCES Postnummer(PostnummerID)
 );
 
 CREATE TABLE Produt (
 	ProdutID int IDENTITY(1,1) PRIMARY KEY,
-	ProdutName varchar(255) NOT NULL,
+	ProdutName varchar(25) NOT NULL,
 	ProdutReadMe text NOT NULL,
 	ProdutPrice int NOT NULL,	
 );
+
+CREATE TABLE ProdutList ()
 
 CREATE TABLE Order (
 	OrderID int IDENTITY(1,1) PRIMARY KEY,

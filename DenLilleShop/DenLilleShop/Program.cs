@@ -18,17 +18,22 @@ namespace DenLilleShop
             Menu m = new Menu();
             DenLilleShopDB c = new DenLilleShopDB();
 
-            customers.Add(new Customer() { CustomerID = 1, Fornavn = "Mikkel", Efternavn = "Kronborg", MobilNummer = 60677407, Email = "mkronborg7@gmail.com" });
-            customers.Add(new Customer() { CustomerID = 2, Fornavn = "Tina", Efternavn = "Nilsen", MobilNummer = 24070605, Email = "t.kronborg6@gmail.com" });
-            customers.Add(new Customer() { CustomerID = 3, Fornavn = "Allan", Efternavn = "Andersen", MobilNummer = 85858032, Email = "AllanAndersen@gmail.com" });
-            customers.Add(new Customer() { CustomerID = 4, Fornavn = "Mads", Efternavn = "Madsen", MobilNummer = 60677407, Email = "Mads032@gmail.com" });
+            //Customer cc = new Customer();
+
+            //customers.Add(new Customer() { CustomerID = 1, Fornavn = "Mikkel", Efternavn = "Kronborg", MobilNummer = 60677407, Email = "mkronborg7@gmail.com" });
+            //customers.Add(new Customer() { CustomerID = 2, Fornavn = "Tina", Efternavn = "Nilsen", MobilNummer = 24070605, Email = "t.kronborg6@gmail.com" });
+            //customers.Add(new Customer() { CustomerID = 3, Fornavn = "Allan", Efternavn = "Andersen", MobilNummer = 85858032, Email = "AllanAndersen@gmail.com" });
+            //customers.Add(new Customer() { CustomerID = 4, Fornavn = "Mads", Efternavn = "Madsen", MobilNummer = 60677407, Email = "Mads032@gmail.com" });
 
             products.Add(new Product() { ProductId = 1, Name = "Mar's Bar", Price = 10 });
             products.Add(new Product() { ProductId = 2, Name = "500g Slik", Price = 25 });
             products.Add(new Product() { ProductId = 3, Name = "Gave Kort 100 Kr", Price = 100 });
             products.Add(new Product() { ProductId = 4, Name = "kasse Coca Cola", Price = 70 });
 
-            m.ListMenu();
+            customers.Add
+
+
+            /*
             try
             {
                 c.SqlInteractionn();
@@ -38,7 +43,7 @@ namespace DenLilleShop
                 Console.WriteLine("Something went wrong.");
                 Console.WriteLine(exp.Message);
             }
-            /*try
+            try
             {
                 c.AddCustomer();
             }
@@ -75,10 +80,9 @@ namespace DenLilleShop
 
                                 if (YN == "y")
                                 {
-                                    customers.Add(new Customer(ID, Fname, Ename, MobilN, Em));
+                                    customers.Add(new Customer(Fname, Ename, MobilN, Em));
                                     Console.Clear();
                                     Console.WriteLine("Kunde er blevet gemt");
-                                    Console.WriteLine("Kunde ID: " + ID);
                                     Console.WriteLine("Navn: " + Fname + " " + Ename);
                                     Console.WriteLine("Mobil Nummer: " + MobilN);
                                     Console.WriteLine("Email: " + Em);
@@ -92,11 +96,10 @@ namespace DenLilleShop
                                     YN = Console.ReadLine().ToLower();
                                     if (YN == "y")
                                     {
-                                        customers.Add(new Customer(ID, Fname, Ename, MobilN, Em));
+                                        customers.Add(new Customer(Fname, Ename, MobilN, Em));
                                         Console.Clear();
                                         Console.WriteLine("OKay så du ville gemme det!?!?");
                                         Console.WriteLine("\nKunde er blevet gemt");
-                                        Console.WriteLine("Kunde ID: " + ID);
                                         Console.WriteLine("Navn: " + Fname + " " + Ename);
                                         Console.WriteLine("Mobil Nummer: " + MobilN);
                                         Console.WriteLine("Email: " + Em);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kronborg\\source\\repos\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj": {}
+    "C:\\Users\\Kronborg\\Source\\Repos\\kronborg6\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kronborg\\source\\repos\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj": {
+    "C:\\Users\\Kronborg\\Source\\Repos\\kronborg6\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kronborg\\source\\repos\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj",
+        "projectUniqueName": "C:\\Users\\Kronborg\\Source\\Repos\\kronborg6\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj",
         "projectName": "DenLilleShop",
-        "projectPath": "C:\\Users\\Kronborg\\source\\repos\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj",
+        "projectPath": "C:\\Users\\Kronborg\\Source\\Repos\\kronborg6\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj",
         "packagesPath": "C:\\Users\\Kronborg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kronborg\\source\\repos\\DenLilleShop\\DenLilleShop\\DenLilleShop\\obj\\",
+        "outputPath": "C:\\Users\\Kronborg\\Source\\Repos\\kronborg6\\DenLilleShop\\DenLilleShop\\DenLilleShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kronborg\\AppData\\Roaming\\NuGet\\NuGet.Config",
