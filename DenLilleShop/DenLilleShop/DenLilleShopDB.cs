@@ -21,7 +21,7 @@ namespace DenLilleShop
         {
             SqlConnection sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings[connString].ConnectionString);
             conn = sqlConnection;
-        }        
+        }
         public void GetData(string connString, string sql)
         {
             SqlConnection sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings[connString].ConnectionString);
@@ -39,21 +39,22 @@ namespace DenLilleShop
             cmd.Connection = conn;
             conn.Open();
             List<Product> products = new List<Product>();
-            using (SqlDataReader sdr = cmd.ExecuteReader()) 
+            using (SqlDataReader sdr = cmd.ExecuteReader())
             {
-                while (sdr.Read())  
+                while (sdr.Read())
                 {
                     products.Add(new Product
                     {
                         ProductId = Convert.ToInt32(sdr["ProdutID"]),
                         Name = sdr["ProdutName"].ToString(),
                         Dec = sdr["ProdutReadMe"].ToString(),
+                        Price = Convert.ToInt32(sdr["ProdutPrice"]),
 
                     });
-                    Console.WriteLine("Test");
+                    Console.WriteLine("Test2");
                 }
                 conn.Close();
-                
+
             }
 
         }
@@ -87,7 +88,32 @@ namespace DenLilleShop
 
             }
         }
+        public void GetOrder()
+        {
+            CreateConnection("connDB");
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Order");
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = conn;
+            conn.Open();
+            List<Order> orders = new List<Order>();
+            using (SqlDataReader sdr = cmd.ExecuteReader())
+            {
+                while (sdr.Read())
+                {
+                    orders.Add(new Order
+                    {
+                        OrderID = Convert.ToInt32(sdr["OrderID"]),
+                        CustomerID = Convert.ToInt32(sdr["CustomerID"]),
+                        ProdutID = Convert.ToInt32(sdr["ProdutID"]),
+                    });
+                    Console.WriteLine("Test3");
+                }
+                conn.Close();
+
+            }
+
         }
+        /*
         public void AddTo()
         {
             CreateConnection("connDB");
@@ -109,6 +135,6 @@ namespace DenLilleShop
                 }
                 conn.Close();
             }
-        }
+        }*/
     }
 }

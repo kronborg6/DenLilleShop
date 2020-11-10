@@ -24,7 +24,7 @@ namespace DenLilleShop
             Price = ItemPrice;
             Name = ItemName;
             //Stuck = HowMany;
-            
+
         }
         public Product()
         {

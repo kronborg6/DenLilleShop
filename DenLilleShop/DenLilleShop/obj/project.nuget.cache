@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EavU/ltZpvfj5WmONnS0BPD38blYTqtGdb6UgLVk7y0ch4gwqI9SxR76MGdHUjx5VwjBT6lA0LQ8KWb6Er/SzA==",
+  "dgSpecHash": "DWj/SiSQc4PlCcvV2xPTn7SbHR9GL0QAcPLpbhDKid2SqH4oqmchKmGtS1ClooBZGoCwps1cCRXAn1YnLZI0ew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kronborg\\Source\\Repos\\kronborg6\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj",
+  "projectFilePath": "C:\\Users\\Kronborg\\Desktop\\DenLilleShop\\DenLilleShop\\DenLilleShop\\DenLilleShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kronborg\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Kronborg\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

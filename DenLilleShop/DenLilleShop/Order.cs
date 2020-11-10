@@ -7,10 +7,11 @@ namespace DenLilleShop
     public class Order
     {
         public int OrderID { get; set; }
+
         // var list
-        public float Saldo { get; set; }
-        public string payed { get; set; } // måske
-        public int ProductListId { get; set; }
+        public int ProdutID { get; set; }
+        public int CustomerID { get; set; }
+
         public Order()
         {
 

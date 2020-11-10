@@ -19,9 +19,9 @@ namespace DenLilleShop
 
 
 
-        public Customer()   
+        public Customer()
         {
-        }       
+        }
 
 
         public override string ToString()

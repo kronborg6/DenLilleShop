@@ -36,6 +36,7 @@ namespace DenLilleShop
             try
             {
                 c.SqlInteractionn();
+                c.GetCustomer();
             }
             catch (SqlException exp)
             {
@@ -106,7 +107,7 @@ namespace DenLilleShop
                                         break;
                                     }
                                 }
-                                
+
                                 break;
                             case 2:
                                 Console.Clear();
@@ -118,7 +119,7 @@ namespace DenLilleShop
                                 Console.WriteLine("Vare Prise: ");
                                 float ItemPrice = float.Parse(Console.ReadLine());
                                 Console.WriteLine("y/n vil du gemme det??");
-                                YN = Console.ReadLine().ToLower(); 
+                                YN = Console.ReadLine().ToLower();
                                 if (YN == "y")
                                 {
                                     products.Add(new Product(id, ItemPrice, ItemName));
@@ -171,9 +172,9 @@ namespace DenLilleShop
                                 foreach (Customer Cus in customers)
                                 {
                                     Console.WriteLine(Cus.ToString());
-                                    Console.WriteLine(Cus.CustomerID);
+                                    Console.WriteLine(Cus.Fornavn);
                                 }
-                                break;                            
+                                break;
                             case 10: // Test Case
                                 Console.Clear();
                                 m.ListMenu();
