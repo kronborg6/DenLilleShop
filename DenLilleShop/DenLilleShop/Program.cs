@@ -30,10 +30,9 @@ namespace DenLilleShop
             products.Add(new Product() { ProductId = 3, Name = "Gave Kort 100 Kr", Price = 100 });
             products.Add(new Product() { ProductId = 4, Name = "kasse Coca Cola", Price = 70 });
 
-            customers.Add
 
+            m.ListMenu();
 
-            /*
             try
             {
                 c.SqlInteractionn();
@@ -43,15 +42,11 @@ namespace DenLilleShop
                 Console.WriteLine("Something went wrong.");
                 Console.WriteLine(exp.Message);
             }
-            try
+            catch (Exception ex)
             {
-                c.AddCustomer();
+                Console.WriteLine("Something went wrong. 2");
+                Console.WriteLine(ex.Message);
             }
-            catch (SqlException exp)
-            {
-                Console.WriteLine("Something went wrong whit add .");
-                Console.WriteLine(exp.Message);
-            }*/
             while (true)
             {
                 int ind = int.Parse(Console.ReadLine());
@@ -80,7 +75,7 @@ namespace DenLilleShop
 
                                 if (YN == "y")
                                 {
-                                    customers.Add(new Customer(Fname, Ename, MobilN, Em));
+                                    //customers.Add(new Customer(Fname, Ename, MobilN, Em));
                                     Console.Clear();
                                     Console.WriteLine("Kunde er blevet gemt");
                                     Console.WriteLine("Navn: " + Fname + " " + Ename);
@@ -96,7 +91,7 @@ namespace DenLilleShop
                                     YN = Console.ReadLine().ToLower();
                                     if (YN == "y")
                                     {
-                                        customers.Add(new Customer(Fname, Ename, MobilN, Em));
+                                        //customers.Add(new Customer(Fname, Ename, MobilN, Em));
                                         Console.Clear();
                                         Console.WriteLine("OKay så du ville gemme det!?!?");
                                         Console.WriteLine("\nKunde er blevet gemt");

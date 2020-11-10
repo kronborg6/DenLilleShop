@@ -10,7 +10,9 @@ namespace DenLilleShop
         private int ProductID { get; set; }
         public float Price { get; set; }
         public string Name { get; set; }
-        
+        public string Dec { get; set; }
+
+
         public int ProductId
         {
             get { return ProductID; }

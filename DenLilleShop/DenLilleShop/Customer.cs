@@ -32,7 +32,7 @@ namespace DenLilleShop
         {
 
         }
-        static public List<Customer> AddToCustomer()
+        /*static public List<Customer> AddToCustomer()
         {
             List<Customer> customers = new List<Customer>();
             DenLilleShopDB c = new DenLilleShopDB();
@@ -41,7 +41,7 @@ namespace DenLilleShop
 
             try
             {
-                c.GetData(connString, sql)
+                c.GetData(connString, sql);
             }
             catch (SqlException exp)
             {
@@ -51,7 +51,7 @@ namespace DenLilleShop
 
 
             return customers
-        }
+        }*/
 
     }
 }

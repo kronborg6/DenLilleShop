@@ -34,14 +34,40 @@ namespace DenLilleShop
         public void SqlInteractionn()
         {
             CreateConnection("connDB");
-            SqlCommand cmd = new SqlCommand("SELECT CustomerID, FirstName, LastName, Email, Vejnavn, Husnummer, Postnummer FROM Customer");
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Produt");
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = conn;
+            conn.Open();
+            List<Product> products = new List<Product>();
+            using (SqlDataReader sdr = cmd.ExecuteReader()) 
+            {
+                while (sdr.Read())  
+                {
+                    products.Add(new Product
+                    {
+                        ProductId = Convert.ToInt32(sdr["ProdutID"]),
+                        Name = sdr["ProdutName"].ToString(),
+                        Dec = sdr["ProdutReadMe"].ToString(),
+
+                    });
+                    Console.WriteLine("Test");
+                }
+                conn.Close();
+                
+            }
+
+        }
+        public void GetCustomer()
+        {
+            CreateConnection("connDB");
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Customer");
             cmd.CommandType = CommandType.Text;
             cmd.Connection = conn;
             conn.Open();
             List<Customer> customers = new List<Customer>();
-            using (SqlDataReader sdr = cmd.ExecuteReader()) 
+            using (SqlDataReader sdr = cmd.ExecuteReader())
             {
-                while (sdr.Read())  
+                while (sdr.Read())
                 {
                     customers.Add(new Customer
                     {
@@ -55,35 +81,12 @@ namespace DenLilleShop
                         Postnummer = Convert.ToInt32(sdr["Postnummer"])
 
                     });
+                    Console.WriteLine("Test");
                 }
                 conn.Close();
+
             }
         }
-        public void AddCustomer()
-        {
-            CreateConnection("connDB");
-            conn.Open();
-            var sql = "INSERT INTO Customer(FirstName, LastName, Email, Vejnavn, Husnummer, Postnummer) VALUES(@FirstName, @LastName, @Email, @Vejnavn, @Husnummer, @Postnummer)";
-            using (var cmd = new SqlCommand(sql))
-            {
-                List<Customer> customers = new List<Customer>();
-                string connString = "connDB";
-                string sql = "SELECT * FROM Customer";
-
-                try
-                {
-
-                }
-                catch (SqlException exp)
-                {
-                    Console.WriteLine("Something went wrong.");
-                    Console.WriteLine(exp.Message);
-                }
-
-
-                return customers
-                //cmd.ExecuteNonQuery();
-            }
         }
         public void AddTo()
         {
