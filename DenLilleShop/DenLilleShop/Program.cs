@@ -17,8 +17,9 @@ namespace DenLilleShop
             //Test.Liter = 12;
             Menu m = new Menu();
             DenLilleShopDB c = new DenLilleShopDB();
-
+            customers = c.GetCustomer();
             //Customer cc = new Customer();
+            c.AddCustomer();
 
             //customers.Add(new Customer() { CustomerID = 1, Fornavn = "Mikkel", Efternavn = "Kronborg", MobilNummer = 60677407, Email = "mkronborg7@gmail.com" });
             //customers.Add(new Customer() { CustomerID = 2, Fornavn = "Tina", Efternavn = "Nilsen", MobilNummer = 24070605, Email = "t.kronborg6@gmail.com" });
@@ -172,7 +173,6 @@ namespace DenLilleShop
                                 foreach (Customer Cus in customers)
                                 {
                                     Console.WriteLine(Cus.ToString());
-                                    Console.WriteLine(Cus.Fornavn);
                                 }
                                 break;
                             case 10: // Test Case

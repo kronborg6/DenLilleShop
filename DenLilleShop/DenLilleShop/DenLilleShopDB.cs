@@ -58,7 +58,7 @@ namespace DenLilleShop
             }
 
         }
-        public void GetCustomer()
+        public List<Customer> GetCustomer()
         {
             CreateConnection("connDB");
             SqlCommand cmd = new SqlCommand("SELECT * FROM Customer");
@@ -87,6 +87,7 @@ namespace DenLilleShop
                 conn.Close();
 
             }
+            return customers;
         }
         public void GetOrder()
         {
@@ -136,5 +137,34 @@ namespace DenLilleShop
                 conn.Close();
             }
         }*/
+        public void AddCustomer()
+        {
+            CreateConnection("connDB");
+            conn.Open();
+            //SqlDataAdapter adap = new SqlDataAdapter();
+
+            //string sql = "";
+
+            // use the defined sql statement 
+            // against our database 
+            //sql = "insert into Test values(3, 'Python')";
+
+            // use to execute the sql command so we  
+            // are passing query and connection object 
+            SqlCommand cmd = new SqlCommand("insert into Test (City) values('Python')",conn);
+            cmd.ExecuteNonQuery();
+            // associate the insert SQL  
+            // command to adapter object 
+            //adap.InsertCommand = new SqlCommand(sql, conn);
+
+            // use to execute the DML statement against 
+            // our database 
+            //adap.InsertCommand.ExecuteNonQuery();
+
+            // closing all the objects 
+            cmd.Dispose();
+            conn.Close();
+
+        }
     }
 }
